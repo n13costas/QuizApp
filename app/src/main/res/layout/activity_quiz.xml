@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:visibility="visible">
+            android:visibility="invisible">
             <RadioButton android:id="@+id/radio10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -143,45 +143,11 @@
                 android:onClick="onCheckboxClicked1"/>
         </LinearLayout>
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/radioGroup3"
-            android:layout_width="match_parent"
+        <EditText
+            android:id="@+id/text_view_usa"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:visibility="invisible">
-            <RadioButton android:id="@+id/radio30"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="25"
-                android:fontFamily="@font/cherry_cream_soda"
-                android:textSize="@dimen/fontMedium"
-                android:textColor="@color/colorFonts"
-                android:onClick="onRadioButtonClicked3"/>
-            <RadioButton android:id="@+id/radio31"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="50"
-                android:fontFamily="@font/cherry_cream_soda"
-                android:textSize="@dimen/fontMedium"
-                android:textColor="@color/colorFonts"
-                android:onClick="onRadioButtonClicked3"/>
-            <RadioButton android:id="@+id/radio32"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="75"
-                android:fontFamily="@font/cherry_cream_soda"
-                android:textSize="@dimen/fontMedium"
-                android:textColor="@color/colorFonts"
-                android:onClick="onRadioButtonClicked3"/>
-            <RadioButton android:id="@+id/radio33"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="100"
-                android:fontFamily="@font/cherry_cream_soda"
-                android:textSize="@dimen/fontMedium"
-                android:textColor="@color/colorFonts"
-                android:onClick="onRadioButtonClicked3"/>
-        </RadioGroup>
+            android:layout_width="@dimen/spaceLarge"
+            android:inputType="number"/>
 
     </RelativeLayout>
 
