@@ -146,8 +146,10 @@
         <EditText
             android:id="@+id/text_view_usa"
             android:layout_height="wrap_content"
-            android:layout_width="@dimen/spaceLarge"
-            android:inputType="number"/>
+            android:layout_width="wrap_content"
+            android:ems="2"
+            android:inputType="number"
+            android:textColor="@color/colorFonts"/>
 
     </RelativeLayout>
 
@@ -236,7 +238,7 @@
             <RadioButton android:id="@+id/radio53"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Vinvent Van Gogh"
+                android:text="Vincent Van Gogh"
                 android:fontFamily="@font/cherry_cream_soda"
                 android:textSize="@dimen/fontMedium"
                 android:textColor="@color/colorFonts"
