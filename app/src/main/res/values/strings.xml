@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Know or Knever</string>
+    <string name="geography_text">Geography</string>
+    <string name="arts_text">Arts</string>
+    <string name="sports_text">Sports</string>
+    <string name="history_text">History</string>
+    <string name="back_text">Back</string>
+    <string name="next_text">Next</string>
+    <string name="submit_text">Submit answers</string>
+
+</resources>

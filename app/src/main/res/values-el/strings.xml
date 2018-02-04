@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Know or Knever</string>
+    <string name="geography_text">Γεωγραφία</string>
+    <string name="arts_text">Τέχνες</string>
+    <string name="sports_text">Αθλητικά</string>
+    <string name="history_text">Ιστορία</string>
+    <string name="back_text">Προηγούμενο</string>
+    <string name="next_text">Επόμενο</string>
+    <string name="submit_text">Υπολογισμός</string>
+</resources>

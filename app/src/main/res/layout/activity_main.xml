@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="Application Background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/abstract1" />
+
+    <TextView
+        android:id="@+id/center_textview_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:text="or"
+        android:textAlignment="center"
+        android:textColor="@color/colorFonts"
+        android:textSize="@dimen/fontXLarge"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/center_textview_know"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/center_textview_or"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:text="Know"
+        android:textAlignment="center"
+        android:textColor="@color/colorFonts"
+        android:textSize="@dimen/fontXLarge"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/center_textview_knever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/center_textview_or"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:text="Knever"
+        android:textAlignment="center"
+        android:textColor="@color/colorFonts"
+        android:textSize="@dimen/fontXLarge"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/geography_button"
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:layout_above="@+id/history_button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundedbuttongeography"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:onClick="showQuiz"
+        android:padding="@dimen/spaceXSmall"
+        android:text="@string/geography_text"
+        android:textColor="@color/colorFonts"
+        android:textSize="@dimen/fontSmall" />
+
+    <Button
+        android:id="@+id/arts_button"
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:layout_below="@+id/history_button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundedbuttonarts"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:onClick="showQuiz"
+        android:padding="@dimen/spaceXSmall"
+        android:text="@string/arts_text"
+        android:textColor="@color/colorFonts"
+        android:textSize="@dimen/fontSmall" />
+
+    <Button
+        android:id="@+id/sports_button"
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/arts_button"
+        android:background="@drawable/roundedbuttonsports"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:onClick="showQuiz"
+        android:padding="@dimen/spaceXSmall"
+        android:text="@string/sports_text"
+        android:textColor="@color/colorFonts"
+        android:textSize="@dimen/fontSmall" />
+
+    <Button
+        android:id="@+id/history_button"
+        android:layout_width="@dimen/buttonSize"
+        android:layout_height="@dimen/buttonSize"
+        android:layout_alignBaseline="@+id/sports_button"
+        android:layout_alignBottom="@+id/sports_button"
+        android:layout_toStartOf="@+id/geography_button"
+        android:background="@drawable/roundedbuttonhistory"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:onClick="showQuiz"
+        android:padding="@dimen/spaceXSmall"
+        android:text="@string/history_text"
+        android:textColor="@color/colorFonts"
+        android:textSize="@dimen/fontSmall" />
+
+</RelativeLayout>
