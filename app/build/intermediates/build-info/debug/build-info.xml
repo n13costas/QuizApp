@@ -6,23 +6,26 @@
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1517785654569"
+    timestamp="1517814834623"
     token="4296250328370153481"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1182" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="63" />
     <task
         name="verifier"
-        duration="0" />
+        duration="24" />
 
+    <artifact
+        location="C:\Users\Konstantinos\AndroidStudioProjects\QuizApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\Konstantinos\AndroidStudioProjects\QuizApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
@@ -34,9 +37,6 @@
         type="SPLIT" />
     <artifact
         location="C:\Users\Konstantinos\AndroidStudioProjects\QuizApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Konstantinos\AndroidStudioProjects\QuizApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Konstantinos\AndroidStudioProjects\QuizApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -62,8 +62,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1517785654569"
+        timestamp="1517814834623"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Konstantinos\AndroidStudioProjects\QuizApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Konstantinos\AndroidStudioProjects\QuizApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
@@ -75,9 +78,6 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\Konstantinos\AndroidStudioProjects\QuizApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Konstantinos\AndroidStudioProjects\QuizApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Konstantinos\AndroidStudioProjects\QuizApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
