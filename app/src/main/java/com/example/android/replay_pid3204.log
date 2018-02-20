@@ -1,0 +1,15 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 159 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 9689 0 -1
+ciMethod java/lang/String <init> ([CII)V 3009 1 3159 0 -1
+ciMethod java/lang/String charAt (I)C 4097 1 29443 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/lang/RuntimeException <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1329 1 986 0 -1
+ciMethod java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 4097 1 9275 0 -1
+ciMethod java/lang/AbstractStringBuilder newCapacity (I)I 801 1 866 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 2337 1 1485 0 -1
+ciMethod java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder; 4097 1 7539 0 -1
+ciMethod 
